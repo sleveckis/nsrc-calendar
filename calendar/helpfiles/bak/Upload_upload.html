@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Help: Uploading File Details (ISOC Workshop Portal)</title>
+</head>
+<body bgcolor="#ffffff">
+<table width="742" border="0" cellspacing="1" cellpadding="0" bgcolor="#808080">
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" width="740" bgcolor="#e3e3e3">
+<tr><td width="150" align="left">
+<a href="http://www.isoc.org/"><img src="/images/isoc_small_trans.gif" width="147" height="55" border="0" alt="Internet Society"></a>
+</td><td width="590" valign="middle" align="left">
+<font face='Verdana, Arial, Helvetica, sans-serif'><font color=#00008c><font size='4'>
+File Upload
+</font></font></font>
+</td></tr>
+<tr><td colspan="2">
+<br>
+<font face='Verdana, Arial, Helvetica, sans-serif'><font size='2'>
+If you are asking, "Why do I have to specify file uploads like this?" - Well, here's the answer:
+<p>
+This is generally a limitation of the way file handles work with the PHP scripting language. We have chosen to use PHP over Javascript in this case for two reasons:
+<ol>
+<li>Javascript has security holes.</li>
+<li>Javascript must be enabled on the client to run. If it's not enabled, then you would not be able to see this window, or upload files.</li>
+</ol>
+It would be possible to include multiple "Browse" boxes to allow for more than 1 file upload at a time, but this would be an arbitrary number of files, and might confuse some users. Thus, you may choose one file at a time, it uploads, and then go to the next file. 
+<p>
+Look for future updates to this page if we rewrite file handles for PHP, or if a future version of PHP has a way to easily get around this issue.
+<p>
+Questions, suggestions, work-arounds? We'd love to hear from you. Send email to admin@ws.edu.isoc.org.
+
+</font></font>
+<p>
+</tr></td>
+</table>
+</tr></tr>
+</table>
+
+<br>
+
+<table border="0" width="742">
+<tr><td>
+<center><form><input type=button value=" Close Window " onClick="self.close();"></form></center>
+</td></tr>
+</table>
+
+
+</body>
+</html>

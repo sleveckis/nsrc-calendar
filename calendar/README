@@ -1,0 +1,58 @@
+Migration project to move from PHP 5.3 on Ubuntu 10.04 LTS to PHP 5.5
+on Ubuntu 14.04 LTS.
+
+Next move will be to PHP 7 on Ubuntu 16.04, or above.
+
+Initial email to David Gustafson - We'll use this to create a proper readme:
+
+>>>>>>>>>>>>>>>
+I've set stuff up so that the web environment simulates what happens on
+https://nsrc.org/.
+
+If you go to http://lamp-dev/nsrc.org/calendar you will get the main
+page and it loads fine. I've renamed everything in all the php scripts
+and includes to match up with the current directory structure.
+
+So, at this point the goal is to make the remaining key php scripts run
+and to skin them like what you see at
+
+http://lamp-dev.nsrc.org/calendar/
+
+which corresponds to:
+
+/var/www/calendar/index.php
+
+The critical scripts to update are:
+
+/var/www/calendar/scripts/*
+/var/www/calendar/organizers/*
+/var/www/calendar/helpfiles/*
+/var/www/calendar/ical
+
+You may not need to touch all the files in helpfiles.
+
+For ical we can wait. I need to look at that and think through how I
+want to change that.
+
+And, finally, any of the /var/www/calendar/include files as needed going
+forward. Not all files will need updating.
+
+I would probably start by going over the initial calendar page:
+
+https://lamp-dev.nsrc.org/calendar/
+
+and pick a script that is not working and work on that. Maybe, for
+instance,
+
+/var/www/calendar/helpfiles/workshop_info_main.php
+
+As this is what displays indiviual calendar entry information and should
+be fairly easy to make work.
+
+As you'll see you are likely just needing to remove all the
+$_HTTP_SESSION_VAR references and use GET instead and remove (in most
+cases) the calls to HTMLSPECIALCHARS as GET does this for you.
+<<<<<<<<<<<<<<<<<<<
+
+Hervey Allen
+21 April 2016

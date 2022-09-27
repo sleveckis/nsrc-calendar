@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Help: Archiving Presentations Tutorial Upload Files (ISOC Workshop Portal)</title>
+</head>
+<body bgcolor="#ffffff">
+<table width="742" border="0" cellspacing="1" cellpadding="0" bgcolor="#808080">
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" width="740" bgcolor="#e3e3e3">
+<tr><td width="150" align="left">
+<a href="http://www.isoc.org/"><img src="/images/isoc_small_trans.gif" width="147" height="55" border="0" alt="Internet Society"></a>
+</td><td width="590" valign="middle" align="left">
+<font face='Verdana, Arial, Helvetica, sans-serif'><font color=#00008c><font size='4'>
+Archiving Presentations Tutorial
+</font></font></font>
+</td></tr>
+<tr><td colspan="2">
+<br>
+<font face='Verdana, Arial, Helvetica, sans-serif'><font size='2'>
+Many presentation packages offer you the choice of saving a presentation in HTML format. In most cases when you make this choice your presentation will be saved in a directory that contains a separate HTML file for each slide in your presentation as well as a folder of images. A presentation of just 20 slides can easily use several folders and many files; more than 100 files for a short to medium presentation is not unusual.
+<p>
+Uploading an HTML presentation in this case is not really feasible if you attempt to do this file by file. Instead we strongly recommend that you upload the presentation as a single, compressed file that users can expand and decompress on their own machines. Naturally there are quite a few different ways to do this, and it varies from platform. But, two methods that are widely available and easy to decompress across platforms include compressed TAR files ("tar.gz" or ".tgz"), and ZIP files.
+<p>
+If you are uploading a folder and its subfolders from a Windows box using a program that creates ZIP files, then it is important that you create a file that when decompressed expands back out in to the original folder. Be sure not to compress your files and sub-folders in such a way that when they are decompressed the files expand out in to the folder where the ZIP file is located. This is considered very bad form, and can actually cause serious problems. For instance, imagine your presentation folder has 100 html files and a subfolder of images. If you compress all of this in a file and then a user expands this on their desktop, then their desktop will suddenly have 100 files and a folder mixed in. This can cause quite a bit of consternation to the unsuspecting user.
+<p>
+If you are on a Linux, BSD, or Unix box then you likely have free utilities available to create both ZIP or compressed TAR files. Below are the commands you would use under one of these operating systems to create a file that can be uploaded and then expanded on another person's machine:
+<p>
+To use TAR to archive an entire directory, and use compression (.tgz or tar.gz files), and then have the file explode back out as a directory issue the following command from below the directory you wish to archive and compress:
+<blockquote>
+tar cvzf fn.tar.gz dirname
+</blockquote>
+If, for instance, you had a directory called "dns-presentation" that contained various html files and an image subdirectory you would issue the following command from under the directory:
+<blockquote>
+tar cvzf dns-html-presentation.tar.gz dns-presentation
+</blockquote>
+This creates the file dns-html-presentation.tar.gz. You can now upload this single file. You will probably want to include a comment with the file indicating that it is a directory of html files and images of an original presenation.
+<p>
+On the user side, if they are running Linux, Unix, BSD, Mac OS X, etc. they can decompress and expand the file back out by issuing the command:
+<blockquote>
+tar xvzf dns-html-presentation.tar.gz
+</blockquote>
+This will recreate the dns-presentation and subdirectory in a directory above where the command is issued. For more informatio about the tar command type "man tar" at the command prompt.
+<p>
+Under Linux, Unix, or BSD you can, alternately, create a ZIP file. This is very useful as Windows users can more easily expand ZIP files, and they are much more used to seeing ZIP files than tar.gz files. To compress an entire directory and subdirectories as a ZIP file in Linux/Unix/BSD issue the following command from below the directory you wish to compress:
+<blockquote>
+zip -r directoryname fn
+</blockquote>
+In practical terms if you had the directory dns-presentation and you wanted to compress it in to the file dns-presentation.zip you would issue the command:
+<blockquote>
+zip -r dns-presentation dns-presentation
+</blockquote>
+This will create the file dns-presentation.zip. You can expand this file under Linux/Unix/BSD by issuing the command:
+<blockquote>
+unzip dns-presentation.zip
+</blockquote>
+This will create the directory dns-presentation above the directory where the file exists and it will expand out all the files and subdirectories in the dns-presentation directory.
+<p>
+For more information about the zip command under Linux/Unix/BSD type "man zip" at the command line.
+</font></font>
+<p>
+</tr></td>
+</table>
+</tr></tr>
+</table>
+
+<br>
+
+<table border="0" width="742">
+<tr><td>
+<center><form><input type=button value=" Close Window " onClick="self.close();"></form></center>
+</td></tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+nav bar size is 685 x 20
+total text size is 491
+available space is 194
+lead off is 22
+end is 5
+white bar is 1 x 9 or 1 x 10
+height above/below is 5 pixels...
+
+Thus, we have 22 to lead, then 194 - 22 - 5 = 167 for spacing
+
+Total spaces are 8, thus 167/8 = 20.875, so make front lead off 21, and
+    we have 21 space between words.
+
+Do 1 pixel for white, 5 to edge of word, word, then 15 to trail...
+
+172+22 = 194
+
+Words are:
+Organizers, Instructors, Participants, Discussions, Mailing Lists, Tools, Calendar, Search, Home

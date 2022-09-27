@@ -1,0 +1,9 @@
+HOST: db.nsrc.org
+USER: calendar
+PASSWORD: HamsterMcLarenDeBeersDucks
+DATABASE: calendar
+SSL_CA: /root/mysql-ssl/ca.pem
+SSL_CERT: /root/mysql-ssl/client-cert.pem
+SSL_KEY: /root/mysql-ssl/client-key.pem
+SSL_VERIFY_CERT: false
+

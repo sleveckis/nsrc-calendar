@@ -1,0 +1,1414 @@
+name = nsrc
+description = Copy this subtheme to get started - see the <b><a href="http://adaptivethemes.com/documentation/adaptivethemes-documentation" target="_blank" title="Adaptivethemes.com - Rocking the hardest since 2006">documentation</a></b> for guidence or the included README. Drush users can generate a new theme using the command: drush adaptivetheme. If you need help please use the <b><a href="http://drupal.org/project/issues/adaptivetheme" target="_blank">issue queue</a></b> or ask in the IRC channel: <b><a href="irc://irc.freenode.net/drupal-adaptivetheme">#drupal-adaptivetheme</a></b>.
+core = 7.x
+base theme = adaptivetheme
+release = 7.x-3.x
+engine = phptemplate
+screenshot = screenshot.png
+stylesheets[screen][] = css/global.base.css
+stylesheets[screen][] = css/global.styles.css
+stylesheets[screen][] = css/custom.css
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content] = Main Content
+regions[highlighted] = Highlighted
+regions[content_aside] = Aside
+regions[secondary_content] = Secondary
+regions[tertiary_content] = Tertiary
+regions[footer] = Footer
+regions[leaderboard] = Leaderboard
+regions[header] = Header
+regions[menu_bar] = Menu Bar
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[dashboard_main] = Dashboard (main)
+regions[dashboard_sidebar] = Dashboard (sidebar)
+regions[dashboard_inactive] = Dashboard (inactive)
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[bigscreen_layout] = three_col_grail
+settings[bigscreen_sidebar_unit] = %
+settings[bigscreen_sidebar_first] = 25
+settings[bigscreen_sidebar_second] = 25
+settings[bigscreen_page_unit] = %
+settings[bigscreen_page_width] = 100
+settings[bigscreen_set_max_width] = 1
+settings[bigscreen_max_width_unit] = px
+settings[bigscreen_max_width] = 1140
+settings[bigscreen_media_query] = only screen and (min-width:1025px)
+settings[tablet_landscape_layout] = three_col_grail
+settings[tablet_landscape_sidebar_unit] = %
+settings[tablet_landscape_sidebar_first] = 20
+settings[tablet_landscape_sidebar_second] = 20
+settings[tablet_landscape_page_unit] = %
+settings[tablet_landscape_page_width] = 100
+settings[tablet_landscape_media_query] = only screen and (min-width:769px) and (max-width:1024px)
+settings[tablet_portrait_layout] = one_col_vert
+settings[tablet_portrait_sidebar_unit] = %
+settings[tablet_portrait_sidebar_first] = 50
+settings[tablet_portrait_sidebar_second] = 50
+settings[tablet_portrait_page_unit] = %
+settings[tablet_portrait_page_width] = 100
+settings[tablet_portrait_media_query] = only screen and (min-width:581px) and (max-width:768px)
+settings[smalltouch_landscape_layout] = one_col_vert
+settings[smalltouch_landscape_sidebar_unit] = %
+settings[smalltouch_landscape_sidebar_first] = 50
+settings[smalltouch_landscape_sidebar_second] = 50
+settings[smalltouch_landscape_media_query] = only screen and (min-width:321px) and (max-width:580px)
+settings[smalltouch_landscape_page_width] = 100
+settings[smalltouch_landscape_page_unit] = %
+settings[smalltouch_portrait_media_query] = only screen and (max-width:320px)
+settings[smalltouch_portrait_page_width] = 100
+settings[smalltouch_portrait_page_unit] = %
+settings[smalltouch_portrait_sidebar_first] = 100
+settings[smalltouch_portrait_sidebar_second] = 100
+settings[smalltouch_portrait_sidebar_unit] = %
+settings[smalltouch_portrait_layout] = one_col_stack
+settings[bigscreen_three_25_50_25] = three-25-50-25
+settings[bigscreen_three_25_25_50] = three-25-25-50
+settings[bigscreen_three_3x33] = three-3x33
+settings[bigscreen_three_50_25_25] = three-50-25-25
+settings[bigscreen_four_4x25] = four-4x25
+settings[bigscreen_two_33_66] = two-33-66
+settings[bigscreen_two_66_33] = two-66-33
+settings[bigscreen_two_50] = two-50
+settings[bigscreen_two_brick] = two-brick
+settings[bigscreen_five_5x20] = five-5x20-2x3-grid
+settings[bigscreen_six_6x16] = six-6x16-3x2-grid
+settings[bigscreen_three_inset_right] = three-inset-right
+settings[bigscreen_three_inset_left] = three-inset-left
+settings[tablet_landscape_three_25_50_25] = three-25-50-25
+settings[tablet_landscape_three_25_25_50] = three-25-25-50
+settings[tablet_landscape_three_3x33] = three-3x33
+settings[tablet_landscape_three_50_25_25] = three-50-25-25
+settings[tablet_landscape_four_4x25] = four-4x25
+settings[tablet_landscape_two_33_66] = two-33-66
+settings[tablet_landscape_two_66_33] = two-66-33
+settings[tablet_landscape_two_50] = two-50
+settings[tablet_landscape_two_brick] = two-brick
+settings[tablet_landscape_five_5x20] = five-5x20
+settings[tablet_landscape_six_6x16] = six-6x16-3x2-grid
+settings[tablet_landscape_three_inset_right] = three-inset-right
+settings[tablet_landscape_three_inset_left] = three-inset-left
+settings[tablet_portrait_three_25_50_25] = three-25-50-25-stack-top
+settings[tablet_portrait_three_25_25_50] = three-25-25-50-stack-top
+settings[tablet_portrait_three_3x33] = three-3x33-stack-top
+settings[tablet_portrait_three_50_25_25] = three-50-25-25-stack-top
+settings[tablet_portrait_four_4x25] = four-4x25-2x2-grid
+settings[tablet_portrait_two_33_66] = two-33-66
+settings[tablet_portrait_two_66_33] = two-66-33
+settings[tablet_portrait_two_50] = two-50
+settings[tablet_portrait_two_brick] = two-brick
+settings[tablet_portrait_five_5x20] = five-5x20-1x2x2-grid
+settings[tablet_portrait_six_6x16] = six-6x16-2x3-grid
+settings[tablet_portrait_three_inset_right] = three-inset-right-wrap
+settings[tablet_portrait_three_inset_left] = three-inset-left-wrap
+settings[smalltouch_landscape_three_25_50_25] = three-25-50-25-stack
+settings[smalltouch_landscape_three_25_25_50] = three-25-25-50-stack
+settings[smalltouch_landscape_three_3x33] = three-3x33-stack
+settings[smalltouch_landscape_three_50_25_25] = three-50-25-25-stack
+settings[smalltouch_landscape_four_4x25] = four-4x25-stack
+settings[smalltouch_landscape_two_33_66] = two-33-66-stack
+settings[smalltouch_landscape_two_66_33] = two-66-33-stack
+settings[smalltouch_landscape_two_50] = two-50-stack
+settings[smalltouch_landscape_two_brick] = two-brick-stack
+settings[smalltouch_landscape_five_5x20] = five-5x20-stack
+settings[smalltouch_landscape_six_6x16] = six-6x16-stack
+settings[smalltouch_landscape_three_inset_right] = three-inset-right-stack
+settings[smalltouch_landscape_three_inset_left] = three-inset-left-stack
+settings[global_default_layout_toggle] = 0
+settings[global_default_layout] = smalltouch-portrait
+settings[disable_responsive_styles] = 0
+settings[global_files_path] = public_files
+settings[custom_files_path] = ''
+settings[combine_css_files] = 0
+settings[combine_js_files] = 0
+settings[enable_custom_media_queries] = 1
+settings[load_html5js] = 1
+settings[load_matchmediajs] = 0
+settings[load_onmediaqueryjs] = 0
+settings[load_ltie8css] = 0
+settings[load_respondjs] = 0
+settings[load_scalefixjs] = 0
+settings[adaptivetheme_meta_viewport] = width=device-width, initial-scale=1.0, user-scalable=yes
+settings[adaptivetheme_meta_mobileoptimized] = width
+settings[adaptivetheme_meta_handheldfriendly] = true
+settings[adaptivetheme_meta_apple_mobile_web_app_capable] = yes
+settings[adaptivetheme_meta_ie_document_mode] = ''
+settings[adaptivetheme_meta_clear_type] = 0
+settings[expose_regions] = 0
+settings[show_window_size] = 0
+settings[atcore_version_test] = 0
+settings[load_all_panels] = 0
+settings[load_all_panels_no_sidebars] = 0
+settings[enable_extensions] = 1
+settings[enable_font_settings] = 1
+settings[enable_heading_settings] = 1
+settings[enable_image_settings] = 1
+settings[enable_apple_touch_icons] = 0
+settings[enable_exclude_css] = 0
+settings[enable_custom_css] = 1
+settings[enable_context_regions] = 1
+settings[enable_menu_toggle] = 1
+settings[enable_float_region_blocks] = 1
+settings[enable_markup_overides] = 1
+settings[base_font_type] = cfs
+settings[base_font] = bf-l
+settings[base_font_gwf] = ''
+settings[base_font_gwf_add_styles] = 1
+settings[base_font_gwf_add_styles_300] = 1
+settings[base_font_gwf_add_styles_300italic] = 1
+settings[base_font_gwf_add_styles_400] = 1
+settings[base_font_gwf_add_styles_400italic] = 1
+settings[base_font_gwf_add_styles_700] = 1
+settings[base_font_gwf_add_styles_700italic] = 1
+settings[base_font_gwf_add_charsets] = 0
+settings[base_font_gwf_add_charsets_latin] = 0
+settings[base_font_gwf_add_charsets_latin-ext] = 0
+settings[base_font_gwf_add_charsets_greek] = 0
+settings[base_font_gwf_add_charsets_greek-ext] = 0
+settings[base_font_gwf_add_charsets_cyrillic] = 0
+settings[base_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[base_font_gwf_add_charsets_khmer] = 0
+settings[base_font_gwf_add_charsets_vietnamese] = 0
+settings[base_font_cfs] = 'Lucida Grande',"Lucida Sans Unicode",sans-serif;
+settings[site_name_font] = bf-sss
+settings[site_name_font_gwf] = ''
+settings[site_name_font_gwf_add_styles] = 0
+settings[site_name_font_gwf_add_styles_300] = 0
+settings[site_name_font_gwf_add_styles_300italic] = 0
+settings[site_name_font_gwf_add_styles_400] = 0
+settings[site_name_font_gwf_add_styles_400italic] = 0
+settings[site_name_font_gwf_add_styles_700] = 0
+settings[site_name_font_gwf_add_styles_700italic] = 0
+settings[site_name_font_gwf_add_charsets] = 0
+settings[site_name_font_gwf_add_charsets_latin] = 0
+settings[site_name_font_gwf_add_charsets_latin-ext] = 0
+settings[site_name_font_gwf_add_charsets_greek] = 0
+settings[site_name_font_gwf_add_charsets_greek-ext] = 0
+settings[site_name_font_gwf_add_charsets_cyrillic] = 0
+settings[site_name_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[site_name_font_gwf_add_charsets_khmer] = 0
+settings[site_name_font_gwf_add_charsets_vietnamese] = 0
+settings[site_name_font_cfs] = ''
+settings[site_slogan_font] = bf-sss
+settings[site_slogan_font_gwf] = ''
+settings[site_slogan_font_gwf_add_styles] = 0
+settings[site_slogan_font_gwf_add_styles_300] = 0
+settings[site_slogan_font_gwf_add_styles_300italic] = 0
+settings[site_slogan_font_gwf_add_styles_400] = 0
+settings[site_slogan_font_gwf_add_styles_400italic] = 0
+settings[site_slogan_font_gwf_add_styles_700] = 0
+settings[site_slogan_font_gwf_add_styles_700italic] = 0
+settings[site_slogan_font_gwf_add_charsets] = 0
+settings[site_slogan_font_gwf_add_charsets_latin] = 0
+settings[site_slogan_font_gwf_add_charsets_latin-ext] = 0
+settings[site_slogan_font_gwf_add_charsets_greek] = 0
+settings[site_slogan_font_gwf_add_charsets_greek-ext] = 0
+settings[site_slogan_font_gwf_add_charsets_cyrillic] = 0
+settings[site_slogan_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[site_slogan_font_gwf_add_charsets_khmer] = 0
+settings[site_slogan_font_gwf_add_charsets_vietnamese] = 0
+settings[site_slogan_font_cfs] = ''
+settings[page_title_font] = bf-sss
+settings[page_title_font_gwf] = ''
+settings[page_title_font_gwf_add_styles] = 0
+settings[page_title_font_gwf_add_styles_300] = 0
+settings[page_title_font_gwf_add_styles_300italic] = 0
+settings[page_title_font_gwf_add_styles_400] = 0
+settings[page_title_font_gwf_add_styles_400italic] = 0
+settings[page_title_font_gwf_add_styles_700] = 0
+settings[page_title_font_gwf_add_styles_700italic] = 0
+settings[page_title_font_gwf_add_charsets] = 0
+settings[page_title_font_gwf_add_charsets_latin] = 0
+settings[page_title_font_gwf_add_charsets_latin-ext] = 0
+settings[page_title_font_gwf_add_charsets_greek] = 0
+settings[page_title_font_gwf_add_charsets_greek-ext] = 0
+settings[page_title_font_gwf_add_charsets_cyrillic] = 0
+settings[page_title_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[page_title_font_gwf_add_charsets_khmer] = 0
+settings[page_title_font_gwf_add_charsets_vietnamese] = 0
+settings[page_title_font_cfs] = ''
+settings[node_title_font] = bf-sss
+settings[node_title_font_gwf] = ''
+settings[node_title_font_gwf_add_styles] = 0
+settings[node_title_font_gwf_add_styles_300] = 0
+settings[node_title_font_gwf_add_styles_300italic] = 0
+settings[node_title_font_gwf_add_styles_400] = 0
+settings[node_title_font_gwf_add_styles_400italic] = 0
+settings[node_title_font_gwf_add_styles_700] = 0
+settings[node_title_font_gwf_add_styles_700italic] = 0
+settings[node_title_font_gwf_add_charsets] = 0
+settings[node_title_font_gwf_add_charsets_latin] = 0
+settings[node_title_font_gwf_add_charsets_latin-ext] = 0
+settings[node_title_font_gwf_add_charsets_greek] = 0
+settings[node_title_font_gwf_add_charsets_greek-ext] = 0
+settings[node_title_font_gwf_add_charsets_cyrillic] = 0
+settings[node_title_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[node_title_font_gwf_add_charsets_khmer] = 0
+settings[node_title_font_gwf_add_charsets_vietnamese] = 0
+settings[node_title_font_cfs] = ''
+settings[comment_title_font] = bf-sss
+settings[comment_title_font_gwf] = ''
+settings[comment_title_font_gwf_add_styles] = 0
+settings[comment_title_font_gwf_add_styles_300] = 0
+settings[comment_title_font_gwf_add_styles_300italic] = 0
+settings[comment_title_font_gwf_add_styles_400] = 0
+settings[comment_title_font_gwf_add_styles_400italic] = 0
+settings[comment_title_font_gwf_add_styles_700] = 0
+settings[comment_title_font_gwf_add_styles_700italic] = 0
+settings[comment_title_font_gwf_add_charsets] = 0
+settings[comment_title_font_gwf_add_charsets_latin] = 0
+settings[comment_title_font_gwf_add_charsets_latin-ext] = 0
+settings[comment_title_font_gwf_add_charsets_greek] = 0
+settings[comment_title_font_gwf_add_charsets_greek-ext] = 0
+settings[comment_title_font_gwf_add_charsets_cyrillic] = 0
+settings[comment_title_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[comment_title_font_gwf_add_charsets_khmer] = 0
+settings[comment_title_font_gwf_add_charsets_vietnamese] = 0
+settings[comment_title_font_cfs] = ''
+settings[block_title_font] = bf-sss
+settings[block_title_font_gwf] = ''
+settings[block_title_font_gwf_add_styles] = 0
+settings[block_title_font_gwf_add_styles_300] = 0
+settings[block_title_font_gwf_add_styles_300italic] = 0
+settings[block_title_font_gwf_add_styles_400] = 0
+settings[block_title_font_gwf_add_styles_400italic] = 0
+settings[block_title_font_gwf_add_styles_700] = 0
+settings[block_title_font_gwf_add_styles_700italic] = 0
+settings[block_title_font_gwf_add_charsets] = 0
+settings[block_title_font_gwf_add_charsets_latin] = 0
+settings[block_title_font_gwf_add_charsets_latin-ext] = 0
+settings[block_title_font_gwf_add_charsets_greek] = 0
+settings[block_title_font_gwf_add_charsets_greek-ext] = 0
+settings[block_title_font_gwf_add_charsets_cyrillic] = 0
+settings[block_title_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[block_title_font_gwf_add_charsets_khmer] = 0
+settings[block_title_font_gwf_add_charsets_vietnamese] = 0
+settings[block_title_font_cfs] = ''
+settings[content_headings_h1h4_font_type] = gwf
+settings[content_headings_h1h4_font] = bf-sss
+settings[content_headings_h1h4_font_gwf] = Oswald
+settings[content_headings_h1h4_font_gwf_add_styles] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_300] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_300italic] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_400] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_400italic] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_700] = 1
+settings[content_headings_h1h4_font_gwf_add_styles_700italic] = 1
+settings[content_headings_h1h4_font_gwf_add_charsets] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_latin] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_latin-ext] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_greek] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_greek-ext] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_cyrillic] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_khmer] = 0
+settings[content_headings_h1h4_font_gwf_add_charsets_vietnamese] = 0
+settings[content_headings_h1h4_font_cfs] = ''
+settings[content_headings_h5h6_font] = bf-sss
+settings[content_headings_h5h6_font_gwf] = ''
+settings[content_headings_h5h6_font_gwf_add_styles] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_300] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_300italic] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_400] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_400italic] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_700] = 0
+settings[content_headings_h5h6_font_gwf_add_styles_700italic] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_latin] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_latin-ext] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_greek] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_greek-ext] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_cyrillic] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_khmer] = 0
+settings[content_headings_h5h6_font_gwf_add_charsets_vietnamese] = 0
+settings[content_headings_h5h6_font_cfs] = ''
+settings[h1_font_size] = 3em
+settings[h2_font_size] = 3em
+settings[h3_font_size] = 1.4em
+settings[h4_font_size] = 1.2em
+settings[h5_font_size] = 1em
+settings[h6_font_size] = 1em
+settings[main_menu_font] = bf-sss
+settings[main_menu_font_gwf] = ''
+settings[main_menu_font_gwf_add_styles] = 0
+settings[main_menu_font_gwf_add_styles_300] = 0
+settings[main_menu_font_gwf_add_styles_300italic] = 0
+settings[main_menu_font_gwf_add_styles_400] = 0
+settings[main_menu_font_gwf_add_styles_400italic] = 0
+settings[main_menu_font_gwf_add_styles_700] = 0
+settings[main_menu_font_gwf_add_styles_700italic] = 0
+settings[main_menu_font_gwf_add_charsets] = 0
+settings[main_menu_font_gwf_add_charsets_latin] = 0
+settings[main_menu_font_gwf_add_charsets_latin-ext] = 0
+settings[main_menu_font_gwf_add_charsets_greek] = 0
+settings[main_menu_font_gwf_add_charsets_greek-ext] = 0
+settings[main_menu_font_gwf_add_charsets_cyrillic] = 0
+settings[main_menu_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[main_menu_font_gwf_add_charsets_khmer] = 0
+settings[main_menu_font_gwf_add_charsets_vietnamese] = 0
+settings[main_menu_font_cfs] = ''
+settings[secondary_menu_font] = bf-sss
+settings[secondary_menu_font_gwf] = ''
+settings[secondary_menu_font_gwf_add_styles] = 0
+settings[secondary_menu_font_gwf_add_styles_300] = 0
+settings[secondary_menu_font_gwf_add_styles_300italic] = 0
+settings[secondary_menu_font_gwf_add_styles_400] = 0
+settings[secondary_menu_font_gwf_add_styles_400italic] = 0
+settings[secondary_menu_font_gwf_add_styles_700] = 0
+settings[secondary_menu_font_gwf_add_styles_700italic] = 0
+settings[secondary_menu_font_gwf_add_charsets] = 0
+settings[secondary_menu_font_gwf_add_charsets_latin] = 0
+settings[secondary_menu_font_gwf_add_charsets_latin-ext] = 0
+settings[secondary_menu_font_gwf_add_charsets_greek] = 0
+settings[secondary_menu_font_gwf_add_charsets_greek-ext] = 0
+settings[secondary_menu_font_gwf_add_charsets_cyrillic] = 0
+settings[secondary_menu_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[secondary_menu_font_gwf_add_charsets_khmer] = 0
+settings[secondary_menu_font_gwf_add_charsets_vietnamese] = 0
+settings[secondary_menu_font_cfs] = ''
+settings[block_menu_font] = bf-sss
+settings[block_menu_font_gwf] = ''
+settings[block_menu_font_gwf_add_styles] = 0
+settings[block_menu_font_gwf_add_styles_300] = 0
+settings[block_menu_font_gwf_add_styles_300italic] = 0
+settings[block_menu_font_gwf_add_styles_400] = 0
+settings[block_menu_font_gwf_add_styles_400italic] = 0
+settings[block_menu_font_gwf_add_styles_700] = 0
+settings[block_menu_font_gwf_add_styles_700italic] = 0
+settings[block_menu_font_gwf_add_charsets] = 0
+settings[block_menu_font_gwf_add_charsets_latin] = 0
+settings[block_menu_font_gwf_add_charsets_latin-ext] = 0
+settings[block_menu_font_gwf_add_charsets_greek] = 0
+settings[block_menu_font_gwf_add_charsets_greek-ext] = 0
+settings[block_menu_font_gwf_add_charsets_cyrillic] = 0
+settings[block_menu_font_gwf_add_charsets_cyrillic-ext] = 0
+settings[block_menu_font_gwf_add_charsets_khmer] = 0
+settings[block_menu_font_gwf_add_charsets_vietnamese] = 0
+settings[block_menu_font_cfs] = ''
+settings[selectors_font] = bf-sss
+settings[selectors_font_gwf] = ''
+settings[selectors_font_add_styles] = 0
+settings[selectors_font_add_styles_300] = 0
+settings[selectors_font_add_styles_300italic] = 0
+settings[selectors_font_add_styles_400] = 0
+settings[selectors_font_add_styles_400italic] = 0
+settings[selectors_font_add_styles_700] = 0
+settings[selectors_font_add_styles_700italic] = 0
+settings[selectors_font_add_charsets] = 0
+settings[selectors_font_add_charsets_latin] = 0
+settings[selectors_font_add_charsets_latin-ext] = 0
+settings[selectors_font_add_charsets_greek] = 0
+settings[selectors_font_add_charsets_greek-ext] = 0
+settings[selectors_font_add_charsets_cyrillic] = 0
+settings[selectors_font_add_charsets_cyrillic-ext] = 0
+settings[selectors_font_add_charsets_khmer] = 0
+settings[selectors_font_add_charsets_vietnamese] = 0
+settings[selectors_font_cfs] = ''
+settings[selectors_css] = ''
+settings[site_name_case] = snc-n
+settings[site_name_weight] = snw-b
+settings[site_name_alignment] = sna-l
+settings[site_name_shadow] = sns-n
+settings[site_slogan_case] = ssc-n
+settings[site_slogan_weight] = ssw-b
+settings[site_slogan_alignment] = ssa-l
+settings[site_slogan_shadow] = sss-n
+settings[page_title_case] = ptc-n
+settings[page_title_weight] = ptw-b
+settings[page_title_alignment] = pta-l
+settings[page_title_shadow] = pts-n
+settings[node_title_case] = ntc-n
+settings[node_title_weight] = ntw-b
+settings[node_title_alignment] = nta-l
+settings[node_title_shadow] = nts-n
+settings[comment_title_case] = ctc-n
+settings[comment_title_weight] = ctw-b
+settings[comment_title_alignment] = cta-l
+settings[comment_title_shadow] = cts-n
+settings[block_title_case] = btc-n
+settings[block_title_weight] = btw-b
+settings[block_title_alignment] = bta-l
+settings[block_title_shadow] = bts-n
+settings[image_alignment] = ia-n
+settings[image_alignment_teaser] = iat-n
+settings[image_caption_teaser] = 0
+settings[image_caption_full] = 0
+settings[image_teaser] = 0
+settings[custom_css] = /* Add any valid CSS declarations */
+
+g#noIBar{                /* removes text cursor  */
+  cursor:default;
+}
+
+/* NEW FLOAT BLOCK */
+.float-blocks-75 .block {width:70%}
+
+/* front header title */
+
+div#branding.branding-elements.clearfix {
+float: left;
+width: 20%;
+}
+
+#uobanner img {
+padding: 0px;
+}
+
+#header {
+display: none;
+height: 111px;
+}
+
+/* Override current logo - 3/5/15  */
+#logo {
+padding: 0px;
+}
+#page-title{
+  margin-bottom: 15px;
+}
+h2 {
+padding-left: 15px;
+}
+h3{     
+  margin: 0.5em;
+}
+.sidebar h2 {
+padding-left: 30px;
+}
+
+p {
+padding-left: 15px;
+}
+.inlBlock{
+  display: inline-block;
+}
+
+/* Bold Dates Throughout Website */
+span.boldDateItem, div.recentActText span, div.archivesMainLink span, .boldItem {
+  font-weight: bold;
+}
+.indentItem{
+  margin-left: 25px;
+}
+/*** Orange Bold Dates   ***/
+.orangeDate{
+  color: #e6941e; 
+  font-family: 'Oswald';
+}
+
+/*** Make Element Appear Clickable ***/
+.appearClickable{
+  color: #0059B0 !important;
+  cursor: pointer;
+}
+
+/* Override current .block class - 3/5/15  */
+.block {
+margin-bottom: 6px;
+}
+
+.block-content content p {
+padding-left: 15px;
+}
+
+#block-views-home-feature-block h2.block-title {
+display: none;
+}
+
+/* Global Style: Images */
+img {
+padding: 15px;
+}
+
+/* Give Images Margin Instead of Padding */
+img.noPadImage {
+  padding: 0px;
+  margin: 15px;
+}
+/* Heading Color on Static Pages */
+.region .node-content h1,
+.region .node-content h2,
+.region .node-content h3,
+.region .node-content h4,
+.region .node-content h5,
+.region .node-content h6{
+  color: #333333;
+}
+/* Custom - Profiles Success Pages*/
+.sProfileName {
+  margin: 0.3em 0;
+}
+.sProfileImgBox{
+  position: relative; 
+  max-width: 250px; 
+  height: 150px; 
+  overflow: hidden; 
+  display: inline-block; 
+  margin: 0 15px;"
+}
+.sProfileImg {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  -webkit-transform: translate(-50%,-50%); 
+  -ms-transform: translate(-50%,-50%); 
+  transform: translate(-50%,-50%);"
+}
+
+/*  NSRC Videos Page  */
+
+
+/* Global Style: List Style*/
+ul {
+list-style-position: outside;
+list-style-image: url(/sites/all/themes/nsrc/images/arrow-bullet.png);
+list-style-type: square;
+font-size: small;
+padding-left: 15px;
+margin-left: 15px;
+}
+ul.noListStyle li{
+  list-style: none;
+}
+ul.noPadMargin{
+  margin: 0px;
+  padding: 0px;
+}
+ul.noMargin{
+  margin: 0px;
+}
+.inlineList li{
+  display:inline;
+}
+
+/* Header : Main Menu */
+#block-system-main-menu {
+/* float: right;  3/10/15 - KN !!!!!!!!
+padding-top: 50px;  */
+display: inline-block;
+vertical-align: middle;
+}
+
+/* Menu Bar Menu w/ Logo */
+#menu-bar{
+background: url('/sites/default/files/images/menu-bkgd444.png');
+background-repeat: no-repeat;
+margin-top: 0px;
+}
+#menu-bar #block-block-7{
+display: inline-block;
+max-height: 130px;
+vertical-align: middle;
+}
+#menu-bar #block-block-7 img{
+padding-left: 0px;
+}
+
+#block-system-main-menu ul.menu {
+display: block;
+}
+
+#block-system-main-menu ul.menu li {
+background-color: transparent;
+color: #0059B0;
+font-weight: bold;
+  /* display: inline;  test - 3/10/15  KN !!!!!!!!!*/
+display: inline-block;
+text-transform: uppercase;
+font-size: 1em;
+margin: 0px 4px;
+}
+
+#secondary-menu-bar {
+display: none;
+}
+
+#block-system-main-menu ul.menu li a {
+background-color: transparent;
+color: #FFFFFF;
+font-weight: bold;
+display: inline;
+text-transform: uppercase;
+padding: 0px 7px;
+font-size: 16px;  /* ADDED IN LINE - DELETE TO RESTORE DEFAULT 4-13-15 */
+}
+
+#searchtitle h1#page-title{display: none;}
+.searchtitle h1#page-title{display: none;}
+
+/* Google CSE Search */
+/*  section#block-google-cse-google-cse{
+  display: inline-block;
+}   */
+
+/*  GOOGLE CSE V2 SEARCH BUG TEMPORARY FIXES  */
+#google-cse-results-searchbox-form{
+  display: none;  /* Hides Drupal search form  */
+}
+#block-google-cse-google-cse{
+  display: inline-block;
+  width: 256px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.gsc-control-cse{
+  background-color: transparent !important;
+  border: none !important;
+}
+#___gcse_0 table, #___gcse_0 thead, #___gcse_0 tbody, #___gcse_0 tr, #___gcse_0 th, #___gcse_0 td{
+  border: none !important;    /*  removes table border elements that drupal auto adds */
+  margin: 0px;
+}
+table.gsc-search-box{
+  width: 97% !important;
+}
+table.gsc-search-box td{
+  vertical-align: top !important;
+  padding: 3px 3px !important;
+}
+input.gsc-input{
+  font-size: 13px !important;      /* fix font size of text typed into search box */
+  border: none !important;
+} 
+td #gsc-iw-id1{
+  margin-top: 1px  !important;   /* align search box with search button */
+}
+.gsc-search-box-tools .gsc-search-box .gsc-input{
+  padding-right: 0px !important;
+}
+.gsst_a{
+  padding-top: 0px !important;  /* makes text and 'x' fit in middle of search box */
+}
+.gsst_b{
+  padding: 2px 2px !important;   /* makes 'x' fit in middle of search box */
+}
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2{
+  margin-top: 0px !important;
+  padding: 6px 23px !important;
+  height: 15px !important;
+}
+/*  END GOOGLE CSE V2 SEARCH BUG TEMPORARY FIXES  */
+
+
+/* Menu Bar: Search */
+#block-search-form {
+/* float: right;  */
+padding-top: 10px; 
+display: inline-block;    /*  test 3/21/15 KN  */
+}
+#block-search-form.menu-wrapper input[type="submit"]{   /* ADDED IN LINE - DELETE ENTIRE ELEMENT TO RESTORE DEFAULT 4-13-15 */
+  text-transform: uppercase;
+}
+
+#block-system-main-menu {
+/* float: right;  */
+}
+
+/* Side Bar: Header Style */
+div.block-inner h2.block-title { 
+color: #F8A51B; 
+font-size: 21px;
+}
+
+#block-menu-menu-upcoming-activities ul.menu {
+display: block;
+list-style: none;
+}
+
+#block-menu-menu-upcoming-activities ul.menu li {
+display: block;
+list-style: none;
+}
+ 
+#block-menu-menu-upcoming-activities ul.menu li a {
+background-color: #044a90;
+color: #ffffff;
+padding: 10px 15px;  /* ORIGINAL PADDING WAS 15PX 15PX  4-13-15 */
+margin: 10px 0px;
+font-weight: bold;
+display: block;
+text-transform: capitalize;
+border-radius: 10px;
+min-height: 37px;
+font-size: 1.05em;  /* ADDED IN - DELETE TO RESTORE DEFAULT 4-13-15 */
+}
+
+#block-menu-menu-resources ul.menu li {
+background-color: transparent;
+color: #0059B0;
+list-style-position: outside;
+list-style-image: url(/sites/all/themes/nsrc/images/arrow-bullet.png);
+list-style-type: square;
+font-size: small;
+}
+
+#block-menu-menu-resources ul.menu li a {
+background-color: transparent;
+color: #0059B0;   
+}
+
+/* SideBar */
+ /* move text closer to images in sidebar * 3/9/15 */
+.region-sidebar-second .block-content p{   
+margin-bottom: 10px;
+}
+
+.region-sidebar-second .block-content p img{ 
+padding-bottom: 0px;
+}
+.block-region-sidebar-second ul li a{
+  font-size: 1.05em; /* ADDED IN TO MATCH UPCOMING ACTIVITIES - DELETE TO RESTORE DEFAULT 4-13-15 */
+}
+
+/* Body: P Style */
+p, ul, li, ol {
+background-color: transparent;
+color: #333333;
+font-size: 0.923em; 
+}
+
+ul ul, ul li, ul p, ol li{
+  font-size: 1.0em; /* Stops nested elements from scaling */
+}
+ul ul{              /* *****************     Test Nested list spacing               ***************** */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-type: circle;
+  list-style-image: none;
+}
+
+a {
+background-color: transparent;
+color: #0059B0;
+}
+
+a.hover {
+text-decoration: underline;
+}
+
+/*  Footer */
+
+footer#footer.clearfix {
+/* background-color: #D9DCE1; */
+background-color: #F2F2F2;
+/* background-image: url(/sites/all/themes/nsrc/images/img_bg_footer.jpg"); -- replaced with background color 
+background-repeat: repeat;  */
+}
+
+/*  Footer: Follow Us  */
+#block-block-4 {
+}
+#footer .block h2{
+  text-transform: uppercase;
+}
+#block-block-4 h2{
+background-color: transparent;
+color: #000000;
+font-size: 2.4em;
+/*  font-weight: normal;  */
+/* padding-left: 30px; */
+}
+
+#block-block-4 ul {
+display: block;
+}
+
+#block-block-4 ul li {
+display: inline;
+list-style: none;
+}
+
+/* Footer: Contact Us  */
+#block-block-5 .block-content ul {
+  margin-left: 34px;
+}
+
+#block-block-5 h2{
+background-color: transparent;
+color: #000000;
+font-size: 2.4em;
+margin-bottom: 4px;
+/*  font-weight: normal;  */
+}
+
+li.icon_home {
+list-style-image: url(/sites/all/themes/nsrc/images/icon_address.png);
+}
+
+li.icon_phone {
+list-style-image: url(/sites/all/themes/nsrc/images/icon_phone.png);
+}
+/*  test footer icons */
+
+li.icon_home span{
+vertical-align: top;
+}
+li.icon_phone span{
+vertical-align: top;
+}
+
+/* login block */
+
+#block-user-login {
+padding-left: 30px;
+}
+
+#block-user-login h2.block-title {
+padding: 0px;
+}
+
+/*This references the image containers within the views slideshow and asserts that 
+ the height scale responsively. Although !important is considered poor css practice
+it is the best option to override inline css without modifying the module's code */  /*
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+    position: relative !important;
+    height: auto !important;
+}
+
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+/*position: relative !important;*/
+    height: auto !important;
+}  */
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+  display:inline-block;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 90%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  display:block; 
+  margin:auto;   /*Center the image*/
+  max-width: 100%;
+  width: 100%;
+  max-width: 87%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.imgtextoverlay {
+    color: #fff !important;
+     text-align:left;
+    text-shadow: 0px 0px 1px #000000;
+    font-size: 100%;    
+    font-weight: bold;
+    position: absolute;
+}
+
+.imgtextoverlay1 {
+    color: #fff !important;
+    line-height:18px;
+    text-align:left;
+    padding:15px;
+    text-shadow: 0px 0px 1px #000000;
+    top: 66%;
+    left: 36%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 12px;
+    max-width:260px;
+    width: 100%;
+    max-height:66px;
+    height:100%;
+    position: absolute;
+}
+
+.slideshow-feature-body {
+font-size: 1.33em;
+color: #fff;
+font-weight: bold;
+position: absolute;
+bottom: 5px;
+right: 3px;
+z-index: 10;
+background: black;
+color: white;
+padding: 3px;
+}
+
+.widget_pager .views-slideshow-pager-field-item {
+float: left;
+text-indent: -10000px;
+background-image: url(/sites/all/themes/nsrc/images/button-white.png);
+background-repeat: no-repeat;
+width:10px;
+height:10px;
+}
+
+.widget_pager .active {
+float: left;
+text-indent: -10000px;
+background-image: url(/sites/all/themes/nsrc/images/button-yellow.png);
+background-repeat: no-repeat;
+width:10px;
+height:10px;
+}
+
+.widget_pager .views-content-counter:hover {
+background-image: url(/sites/all/themes/nsrc/images/button-yellow.png);
+background-repeat: no-repeat;
+width:10px;
+height:10px;
+cursor: pointer;
+}
+
+/* Front Page Recent Activities Heading Images */
+.recentActStretch{
+  width: 24%;
+}
+/* End Recent Heading Images */
+
+/* Front Page Recent Activities Block and Archives Main Page */
+#block-block-3{     /*  added in while editing layout of NEWS section - 8-3-15  */
+  clear: both;
+}
+
+
+div.recentActHome:after, div.archivesMainLink:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  content: " ";
+}
+.recentActHome img,{
+  max-width: 100px; 
+  float: left;
+  padding: 5px 15px 10px 15px;
+}
+
+.recentActHome h6{
+  font-weight: normal; 
+  margin:0px; 
+}
+.recentActHome p, .archivesMainLink p {
+  padding-left: 0px;
+}
+/* div.recentActText */
+div.archivesMainLink  {
+  float: left; 
+  width: 83%; 
+}
+.archivesMainLink img {
+  max-width: 63px; 
+  float: left;
+  padding: 0px 10px 10px 15px;
+  margin-bottom: 10px;
+}
+.archivesMainLink p{   /* Keeps text from wrapping down below icon images */
+  padding-left: 86px;
+}
+
+
+/* Recent Activities Block  */
+/* #block-block-3 p{
+  color: #000;
+}  */
+
+/* Supporters and Trainers Bios Page and Where is NSRC page */
+#mainSupporters{
+  text-align: center;
+}
+.mainSupportersLogo{
+  display: inline;
+}
+.mainSupportersLogo img{
+  margin: 0% 1%;
+}
+#nsrcSupporters, #nsrcBios{
+  text-align: justify;
+
+}
+#nsrcSupporters img{
+  vertical-align: middle;
+  margin: 2%;
+  text-align: center;
+}
+#nsrcSupporters div{
+  display: inline-block;
+  margin: 0 1% 0 1%;
+  min-width: 280px;
+  text-align: center;
+}
+#nsrcSupporters p{
+  display: inline-block;
+  vertical-align: middle;
+}
+#nsrcSupporters .sponsorsTextBlock{
+  text-align: center;
+}
+#nsrcBios div{
+  display: inline-block;
+  vertical-align: bottom;
+  /**   margin-bottom: 5px;   **/
+  text-align: center;
+}
+#nsrcBios a:hover{
+  text-decoration: none;
+}
+.bioThumbnail {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: inline-block;
+  padding-right: 20px;
+}
+.bioThumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.bioThumbnail img.portrait {
+  height: 100px;
+  max-width: none;
+}
+.supportersList li{
+  float: left;
+  width: 50%;
+}
+.scienceFoundationAwardsList{
+  position: relative;
+  left: 14px;
+}
+/*  Activities Page and Where page  */
+#workshopDirectoryList ul {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  list-style-image: url(/sites/all/themes/nsrc/images/arrow-bullet.png);
+  list-style-position: inside;
+}
+.workshopCalendarHeading{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.workshopCalendarDate{
+  font-weight: bold;
+}
+.col1RecentDates ul{ 
+  margin-left: 0px;
+}
+.col1RecentDates ul li{
+  margin-bottom: 5px;
+  list-style: none;
+}
+span.recentCalendarDate{
+ font-weight: bold;
+}
+.sidebarBorder{
+  border-left: 1px dashed #ababab;
+}
+.sidebarBorder h3{
+  margin-left: 15px;
+  color: #F8A51B;
+  font-size: 1.64em;
+  margin-bottom: 0px;
+}
+.block-region-sidebar-second .sidebarBorder a, .block-region-sidebar-second .sidebarBorder ul li{
+  font-size: 1.0em;
+}
+/* Where page Flag Icons */
+img.flagicon{
+   width: 20px; 
+   padding: 0px 6px 0px 0px;
+   cursor: pointer;
+}
+
+/* IXP Page and Subpages Styles */
+.ixpMainContent{
+  text-align: center;
+}
+.ixpMainContent h2{
+  margin: 0px 0px 6px 0px;
+}
+.ixpMainContent p{
+  padding: 0px;
+}
+#ixpCountryList li{
+  font-size: 1.2em;
+}
+
+/* Pages Styles  */
+.columnListOne h2, .columnListTwo h2{
+  margin: 0.60em 0;
+}
+
+div.subHeadingGray, p.subHeadingGray, .subHeadingGray{
+  background-color: #D9DCE1;
+}
+h5.subHeadingGray{
+    padding: 4px 0px 4px 8px;
+    background-color: #D9DCE1;
+}
+.subHeadingBlue {
+  padding: 2px 0px 2px 8px;
+  color: white !important;
+  background: #024b8f; /* Old browsers */
+  background: -moz-linear-gradient(left,  #024b8f 0%, #2989d8 46%, #248bd9 100%); /* FF3.6+ */ 
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#024b8f), color-stop(46%,#2989d8), color-stop(100%,#248bd9)); /*   Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #024b8f 0%,#2989d8 46%,#248bd9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #024b8f 0%,#2989d8 46%,#248bd9 100%); /* Opera 11.10+ */ 
+  background: -ms-linear-gradient(left,  #024b8f 0%,#2989d8 46%,#248bd9 100%); /* IE10+ */
+  background: linear-gradient(to right,  #024b8f 0%,#2989d8 46%,#248bd9 100%); /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#024b8f', endColorstr='#248bd9', GradientType=1 ); /* IE6-9 */
+}
+[class*="float-blocks"] h3.subHeadingBlue{
+    padding: 2px 0px 2px 6px;
+    max-width: 303px;
+}
+
+/* News Page */
+.newsStoriesList li{
+  list-style:none;
+  padding:6px 0px;
+}
+
+.newsStoriesList .newsStoriesTitle{
+  font-weight: bold; 
+  text-transform: capitalize; 
+  font-size: 1.1em;
+}
+.newsStoriesList .newsStoriesTitle a{
+  color: #000000;
+}
+
+/* Network Status Pages */
+#connectWorldMap{
+  text-align: center;
+}
+div.alphabetCountriesList {
+  margin-left: 15px;
+}
+
+/* Archive Pages Styles */
+.diySoftware td:first-child{
+  width: 30%;
+}
+
+/* Help Desk Pages Styles */
+#sampleVirusHoax{
+   width: 80%;
+  margin: 0 auto;
+  border: none;
+}
+
+#widget_pager_bottom_home_feature-block {
+	float: right;
+	position:relative;
+	margin-top:-225px;
+	z-index: 500;
+	}
+/************* MEDIA QUERIES **************/
+@media screen {
+#google-cse-results iframe {width: 640px; height: 1240px;}
+}
+@media only screen and (max-width:321px) {
+#block-system-main #nsrcSupporters div{min-width: inherit;}
+#block-system-main #nsrcSupporters div img, #mainSupporters .mainSupportersLogo img {max-width: 90%;}
+.widget_pager {display: none;} 
+}
+@media only screen and (max-width:1148px) {
+#recentActHeadingImages .mobileHidden2 {display: none;}
+.recentActStretch{width:32%;}
+.imgtextoverlay1{
+    line-height:16px;
+    padding:8px;
+    background-color: rgba(0,0,0,0.5);
+    font-size:14px;
+    border-radius:8px;
+    max-width:220px;
+    max-height:66px;
+    position:absolute;
+    top: 66%;
+    left: 26%;
+}
+#widget_pager{
+	margin-top:-20px;
+        margin-left: -85px;
+	}
+}
+@media only screen and (max-width:635px) {
+#recentActHeadingImages .mobileHidden2 {display: none;}
+.recentActStretch{width:32%;}
+.custom-blocks-container .float-blocks-4 .block, .custom-blocks-container .float-blocks-75 .block{width: 100%;}
+}
+@media only screen and (max-width:490px){
+#recentActHeadingImages .mobileHidden1 {display: none;}
+.recentActStretch{width:49%;}
+}
+@media only screen and (min-width:481px) and (max-width:655px) {
+div.recentActText{float: none; width: 100%;}
+  .imgtextoverlay1{
+    line-height:12px;
+    padding:6px;
+    background-color: rgba(0,0,0,0.5);
+    font-size:10px;
+    border-radius:4px;
+    max-width:200px;
+    max-height:64px;
+    position:absolute;
+}
+#widget_pager{
+	margin-top:-20px;
+        margin-left: -85px;
+	}
+}
+@media only screen and (max-width:768px) {
+img{padding:15px 0px;}
+.workshopDirectoryList2.float-blocks-3 .block{width: 100%;}
+         /*    .workshopDirectoryList2.float-blocks-3 .block img{display: none;}    Leave commented out if no image is used*/
+#block-system-main #nsrcSupporters{text-align: center;}
+[class*="float-blocks"] h3.subHeadingBlue{max-width:100%;}
+body:before {content: 'tablet'; display: none;}
+.widget_pager{
+margin:0 5px;}
+
+}
+@media only screen and (max-width:837px){
+#block-system-main-menu ul.menu li a{color: #0059B0;}
+
+#widget_pager{
+	margin-top:-20px;
+        margin-left: 50px;
+}
+.imgtextoverlay1{
+    line-height:14px;
+    padding:8px;
+    background-color: rgba(0,0,0,0.5);
+    font-size:16px;
+    border-radius:4px;
+    max-width:220px;
+    max-height:66px;
+    position:absolute;
+    top: 56%;
+    left: 18%;
+}
+}
+
+@media only screen and (max-width:480px) {
+   .imgtextoverlay1{
+    line-height:11px;
+    padding:4px;
+    font-size:9px;
+   background-color: rgba(0,0,0,0.5);
+    border-radius:0px;
+    max-width:130px;
+    max-height:45px;
+    position:absolute;
+    top: 50%;
+    left: 26%;
+}
+#widget_pager{
+	margin-top:-30px;
+        margin-left: 50px;
+}
+#google-cse-results iframe {width: 320px; height: 1640px;}
+
+.views-slideshow-controls-bottom .views-slideshow-pager-field-item
+{margin:0 1px;}
+}
+
+ .hygiene, .hygiene svg {position: absolute;}
+
+ .hygiene svg {
+    width: 60px;
+    height: 60px;
+    padding-right: 100px;
+    font: 10px sans-serif;
+}
+
+.hygiene circle {
+   fill: #DC143C;
+   stroke: grey;
+   stroke-width: 0.5px;
+}
+settings[menu_toggle_tablet_portrait] = 1
+settings[menu_toggle_tablet_landscape] = 0
+settings[menu_toggle_main_menu] = 1
+settings[menu_toggle_secondary_menu] = 1
+settings[menu_toggle_leaderboard] = 0
+settings[menu_toggle_header] = 0
+settings[menu_toggle_menu_bar] = 0
+settings[menu_toggle_main_menu_title] = Main menu
+settings[menu_toggle_secondary_menu_title] = User menu
+settings[float_block_direction_sidebar_first] = left
+settings[float_block_direction_sidebar_second] = left
+settings[float_block_direction_highlighted] = left
+settings[float_block_direction_content_aside] = left
+settings[float_block_direction_secondary_content] = left
+settings[float_block_direction_tertiary_content] = left
+settings[float_block_footer] = 2
+settings[float_block_direction_footer] = left
+settings[float_block_direction_leaderboard] = left
+settings[float_block_header] = 2
+settings[float_block_direction_header] = left
+settings[float_block_menu_bar] = 3
+settings[float_block_direction_menu_bar] = left
+settings[float_block_direction_help] = left
+settings[page_full_width_wrappers] = 0
+settings[page_content_type_suggestions] = 0
+settings[menu_item_span_elements] = 1
+settings[breadcrumb_display] = 1
+settings[breadcrumb_home] = 0
+settings[breadcrumb_label] = 0
+settings[breadcrumb_title] = 0
+settings[breadcrumb_separator] =  &#187; 
+settings[login_block_remove_links] = 0
+settings[login_block_remove_openid] = 0
+settings[horizontal_login_block] = 0
+settings[user_block_user_name] = 1
+settings[frontpage_remove_title] = 1
+settings[unset_block_system_main_front] = 0
+settings[feed_icons_hide] = 0
+settings[comments_hide_title] = 0
+settings[unset_menu_titles] = 0
+settings[unset_local_tasks] = 0
+settings[adv_search_extra_fieldsets] = 0
+settings[skip_link_target] = #main-content
+settings[rel_author] = 0
+settings[logo_title] = 0
+settings[extra_page_classes] = 1
+settings[extra_article_classes] = 1
+settings[extra_comment_classes] = 1
+settings[extra_block_classes] = 1
+settings[extra_menu_classes] = 1
+settings[extra_item_list_classes] = 1
+settings[attribution_toggle] = 0
+settings[at_core] = 7.x-3.x
+settings[path] = public://adaptivetheme/nsrc_files

@@ -1,0 +1,57 @@
+table.info_table,table.search_table,table.form_table * {
+    font-family: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10pt;
+}
+
+/* information table styling */
+table.info_table {
+    width: 800px;
+    padding: 0;
+    border-spacing: 1;
+    margin: auto;
+}
+
+table.info_table td {
+    padding: 5px;
+}
+
+table.info_table p {
+    padding: 0;
+}
+
+/* search table styling */
+table.search_table {
+    width: 800px;
+    border-spacing: 0;
+    background-color: #E3E3E3;
+    padding: 0;
+    margin: auto;
+}
+
+table.search_table td {
+    padding: 5px;
+}
+
+table.search_table form {
+    margin-left: 15px;
+}
+
+table.search_table form select {
+    padding: 2px;
+}
+
+/* form table styling */
+table.form_table {
+    width: 800px;
+    padding: 0;
+    border-spacing: 0;
+    margin: auto;
+}
+
+table.form_table td {
+    padding: 5px;
+}
+
+table.form_table select {
+    padding: 2px;
+}

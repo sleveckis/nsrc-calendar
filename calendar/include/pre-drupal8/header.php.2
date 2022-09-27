@@ -1,0 +1,252 @@
+<?php
+
+// header.php
+//
+// Hervey Allen for ISOC, July 2003
+//
+// Updated September, 2003
+// Update October 24, 2006 to put in place new navigation bar
+// Update November 2008 for new site look and feel
+// Update March 2013 for nsrc.org
+// Update November 2019 for Drupal 7 to 8 move
+//
+
+?>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js adaptivetheme">
+<head>
+    
+<meta charset="utf-8" />
+<meta name="title" content="Network Startup Resource Center (NSRC)- Network Education and Training calendar of Events" />
+<link rel="shortlink" href="https://nsrc.org/calendar" />
+<link rel="canonical" href="https://nsrc.org/calendar" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/nsrc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://nsrc.org/index" />
+
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<title>Network Startup Resource Center (NSRC)- Network Education and Training calendar of Events</title>
+<link rel="stylesheet" media="all" href="/modules/contrib/uobanner/css/uobanner-styles.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/modules/contrib/google_cse/css/google_cse.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/font-awesome.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/webfonts.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/base.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/tables.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/form.css?q18uzh" /> 
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/field.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/image.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/page.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/block.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/block--branding.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/block--breadcrumb.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/node.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/user.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/views.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/menu.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/pagers.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/labels.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/markers.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/messages.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/print.css?q18uzh" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/generated/nsrc.layout.page.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/book.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/comments.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/search.css?q18uzh" /> 
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/taxonomy.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/ckeditor.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/color.css?q18uzh" /> 
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/tabs.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/generated/fonts.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/generated/title-styles.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/slideshows.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/components/jquery-ui.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/generated/custom-css.css?q18uzh" />
+<link rel="stylesheet" media="all" href="/themes/nsrc/styles/css/custom.css?q18uzh" />
+
+<!-- Table specific css. Need to adjust as it's overriding fonts in the header -->
+<!-- calendar specific version of css to mix with drupal css -->
+<!-- <link href="/calendar/css/cal.css" rel="stylesheet" type="text/css"> -->
+<!-- Original calendar css that overrides some of the Drupal css -->
+<link href="/calendar/css/site.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+        <a href="#block-nsrc-content" class="visually-hidden focusable skip-link">Skip to main content</a>
+    
+      <div id="uobanner-container-black">
+        <div id="uobanner" style="max-width: 100%; margin: 0 auto;">
+          <a id="uobanner-flag" href="http://www.uoregon.edu">University of Oregon</a>
+          <div id="uobanner-logobox"><a href="http://www.uoregon.edu"><img src="/modules/contrib/uobanner/images/uologo-300dpi.png" alt="University of Oregon." height="35" width="216" /></a></div>
+          <div id="uobanner-links"><span class="uobanner-text-right"><a href="http://www.uoregon.edu" class="uobanner-uonav">UO Home</a>&nbsp; | &nbsp;<a href="http://www.uoregon.edu/azindex/" class="uobanner-uonav">Dept Index</a></span></div>
+        </div>
+      </div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<!-- <div class="page js-layout"> -->
+  <div data-at-row="navbar" class="l-navbar l-row">
+  
+  <div class="l-pr page__row pr-navbar" id="navbar">
+    <div class="l-rw regions container pr-navbar__rw arc--1 hr--1" data-at-regions="">
+      <div  data-at-region="1" data-at-block-count="3" class="l-r region pr-navbar__navbar" id="rid-navbar"><div id="block-nsrc-mainlogo-3" class="l-bl block block-config-provider--block-content block-plugin-id--block-content-fd66a420-d932-4d41-a173-7be728cf3365 block--type-basic block--view-mode-full"id="block-contentfd66a420-d932-4d41-a173-7be728cf3365">
+  <div class="block__inner">
+
+    <div class="block__content">  <div class="atl atl--layout-onecol layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="clearfix text-formatted field field-block-content--body field-formatter-text-default field-name-body field-type-text-with-summary field-label-hidden has-single"><div class="field__items"><div class="field__item"><a href="https://nsrc.org/" title="Network Startup Resource Center"><img src="/sites/default/files/nsrc-main-logo-transparent.png" alt="Network Startup Resource Center Logo" /></a></div></div>
+</div>
+
+    </div>
+  </div>
+</div></div>
+</div>
+<nav role="navigation" aria-labelledby="block-nsrc-main-menu-menu" id="block-nsrc-main-menu" class="l-bl block block-menu block-config-provider--system block-plugin-id--system-menu-block-main has-title" id="system-menu-blockmain">
+  <div class="block__inner block-menu__inner">
+
+    
+    <h2 class="block__title block-menu__title" id="block-nsrc-main-menu-menu"><span>Main menu</span></h2>
+    <div class="block__content block-menu__content">
+    <ul class="menu odd menu-level-1 menu-name--main">      
+            
+      
+            <li class="menu__item menu__item-title--about" id="menu-name--main__about">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/about" class="menu__link">ABOUT</a>
+        </span>
+
+        
+      </li>      
+            
+      
+            <li class="menu__item menu__item-title--activities" id="menu-name--main__activities">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/activities" class="menu__link">ACTIVITIES</a>
+        </span>
+
+        
+      </li>      
+            
+      
+            <li class="menu__item menu__item-title--news" id="menu-name--main__news">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/news" class="menu__link">NEWS</a>
+        </span>
+
+        
+      </li>      
+            
+      
+            <li class="menu__item menu__item-title--supporters" id="menu-name--main__supporters">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/supporters" class="menu__link">SUPPORTERS</a>
+        </span>
+
+        
+      </li>      
+            
+      
+            <li class="menu__item menu__item-title--calendar" id="menu-name--main__calendar">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/calendar" class="menu__link">CALENDAR</a>
+        </span>
+
+        
+      </li>      
+            
+      
+            <li class="menu__item menu__item-title--videos" id="menu-name--main__videos">
+
+        <span class="menu__link--wrapper">
+          <a href="http://nsrc.org/videos" class="menu__link">VIDEOS</a>
+        </span>
+
+        
+      </li></ul>
+  
+
+</div></div>
+</nav>
+<div id="block-googlecse" class="l-bl block block-config-provider--google-cse block-plugin-id--google-cse"id="google-cse">
+  <div class="block__inner">
+
+    <div class="block__content">
+
+  <form class="google-cse-search-box-form" data-drupal-selector="google-cse-search-box-form" action="http:///cse" method="get" id="google-cse-search-box-form" accept-charset="UTF-8" role="form">
+  <input data-drupal-selector="edit-cx" type="hidden" name="cx" />
+<input data-drupal-selector="edit-cof" type="hidden" name="cof" />
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-query form-item-query">
+      <label for="edit-query">Enter your keywords</label>
+        <input data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="0" maxlength="128" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-sa" type="submit" id="edit-sa" name="op" value="Search" class="button js-form-submit form-submit" />
+<input autocomplete="off" data-drupal-selector="form-3qdijxnl7y42lyfytl51wli01wl4xws6usrbgq3mpom" type="hidden" name="form_build_id" value="form-3QdIJxnL7Y42lyfYtL51WlI01WL4Xws6uSRBgq3MPoM" />
+<input data-drupal-selector="edit-google-cse-search-box-form" type="hidden" name="form_id" value="google_cse_search_box_form" />
+
+</form>
+
+
+<div id="google-cse-results">
+ <!-- 
+<script>
+  (function() {
+    var cx = '016604752275707037582:gn9q3tfmx6w';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' :
+'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+-->
+  <noscript>
+    <a href="http://nsrc.org/cse?keys">View the results at Google</a>, or enable JavaScript to view them here.
+  </noscript>
+</div>
+</div></div>
+</div>
+</div>
+    </div>
+  </div>
+  
+</div>
+
+<?php
+ // End header.php
+?>

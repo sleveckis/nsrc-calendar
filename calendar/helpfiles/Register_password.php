@@ -1,0 +1,55 @@
+<?php
+// for ROOT_DIR
+include "../config.php";
+?>
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Help: Password - User Registration (Network Startup Resource Center Network Education Calendar)</title>
+</head>
+<body bgcolor="#ffffff">
+
+<table width="742" border="0" cellspacing="1" cellpadding="0" bgcolor="#808080">
+<tr><td>
+<table border="0" cellpadding="2" cellspacing="0" width="740" bgcolor="#e3e3e3">
+<tr><td width="150" align="left">
+<a href="http://nsrc.org"><img src="/<?=ROOT_DIR?>/images/nsrc-logo-small.png" width="148" height="70" border="0" alt="Network Startup Resource Center"></a>
+</td><td width="590" valign="middle" align="left">
+<font face='Verdana, Arial, Helvetica, sans-serif'><font color="#2B6C26"><font size='5'>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Password</b>
+</font></font></font>
+</td></tr>
+<tr><td colspan="2">
+<br>
+<font face='Verdana, Arial, Helvetica, sans-serif'><font size='2'>
+Your password to allow access to the event creation and update features of the Network Startup Resource 
+Center Network Education calendar web site.
+<p>
+<font size="-1">Enter the password twice, to ensure that it has beeen typed accurately.
+
+<p><b>Notes:</b>
+<ol>
+<li>The password must be at least six(6) characters long, and must contain at least one number or element of punctuation.
+<li>Be certain to remember or record your password.  
+<li>If you forget your password you can request that it be sent via email to you.
+<li>You can change your password using the on-line user update form. 
+</ol>
+
+</font></font>
+</tr></td>
+</table>
+</tr></tr>
+</table>
+
+<br>
+
+<table border="0" width="742">
+<tr><td>
+<center><form><input type=button value=" Close Window " onClick="self.close();"></form></center>
+</td></tr>
+</table>
+
+
+</body>
+</html>

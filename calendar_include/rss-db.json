@@ -1,0 +1,7 @@
+{
+  "CAL_DB_USER": "calendar",
+  "CAL_DB_PASS": "HamsterMcLarenDeBeersDucks",
+  "CAL_DB_HOST": "db.nsrc.org",
+  "CAL_DB_PORT": "3306",
+  "CAL_DB_NAME": "calendar"
+}

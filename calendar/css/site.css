@@ -1,0 +1,203 @@
+/*  
+Description: ISOC Main Style Sheet
+URL:    	   http://www.isoc.org/includes/styles.css
+Author: 	   Henri Wohlfarth
+Contact: 	   webmaster@isoc.org
+Updated for WRC:   Hervey Allen (admin@ws.edu.isoc.org)
+Updated for nsrc.org - March 2014 by Hervey Allen, hervey@nsrc.org
+*********************************************************
+*/
+
+/* Global tag redefinitions */
+/*  * { font: 12px Arial, sans-serif } */
+* {font-family: 'Lucida Grande',"Lucida Sans Unicode",sans-serif;}
+a, a:active, a:visited, a:link {text-decoration:none} /* color:#136317;  */
+a:hover {
+         color:#fff;
+         background:#369;
+         text-decoration:none;
+   }
+img  { border: 0px; padding:2px; } /* added padding KN  */
+li  { padding-bottom: 5px; }
+table, td { border-collapse: collapse; padding: 1px 0px; border-spacing: 0px; }
+th { padding: 4px; vertical-align:top; text-align:left;border: 1px solid #ccc; font-weight: bold; background-color: #f4f4f7 }
+em {font-style:italic}
+strong em { font-weight: bold}
+strong.search {font-weight: bold; font-size: 14px; color: #176b17 }
+strong.search-top {font: Arial, sans-serif; font-weight: bold; font-size: 15px; color: #0000ff }
+/* strong.result {font-weight: bold; font-size: 14px; color: #176b17 } */
+a.href.bold {font-weight: bold;}
+a.href.right {text-align:right; float:right}
+
+/* section titles */
+h1 {width:760px;margin:0px;margin-top: 5px; background-color:#EEEEEE;margin-left:auto;margin-right:auto;color: #009;padding-top:1px;padding-bottom:1px;text-align:right; font: 14px 'Arial Black'}
+
+dt {margin-top: 15px; margin-bottom: 4px}
+p {margin-top: 5px;}
+h2, h4, h3, h5, h6 {font-size: 13px; font-weight:bold}
+h2 {color: #009}
+h3 {color: #000; margin-top: 15px; margin-bottom: 15px}
+h3.search {color: #009;}
+h5 {margin-bottom: 8px}
+h6, h4 {color: #203040; margin-top: 25px; margin-bottom: 8px}
+
+strong { font-weight:bold }
+body {background-color: #FFF; margin: 0px; text-align: center; height: auto;}
+
+b.title {font: 14px 'Arial Black'}
+b.title2 {font: 24px 'Arial Black'}
+b.title3 {font: 12px 'Arial Black'}
+b.title4 {font: 11px 'Arial Black'}
+b.bold {font: 12px 'Arial Black'}
+
+p.tools {padding-top: 4px;margin: 0px }
+p.tools img {float:right; margin-left: 5px }
+
+p.issues {padding-top: 4px;margin: 0px }
+p.issues img {float:right; margin-left: 5px }
+
+
+/* Bullet lists global standard */
+td.content ul, td.content ol { padding-left:20px; margin-left: 5px; margin-bottom: 20px }
+ul.arrow {list-style-position: outside; list-style-image: url(/calendar/images/arrow.gif); list-style-type: square; margin-bottom: 10px }
+
+
+/* header */
+div.top {height:134px; width: 760px; margin-left: auto; margin-right:auto; border-bottom: 1px solid #009; margin-bottom: 0px;
+/* background-image:url('/cal-images/line_horizontal.gif');background-repeat:no-repeat;background-position:332px 48px} */
+background-repeat:no-repeat;background-position:332px 48px}
+div.top img { float:left; margin-top: 13px; }
+div.top div a {display:block; padding: 6px; padding-left: 10px; padding-right: 10px; font-weight:bold; font-size:11px; text-align:right}
+div.top div {margin:0px;float:right; background:url('/calendar/images/line_vertical.gif') no-repeat 0px 0px; 
+padding-top: 20px; padding-bottom: 20px; margin-top: 3px}
+div.top p {margin:0px}
+.skip {display:none}
+div.line {height:0px; width: 760px; margin-left: auto; margin-right:auto; border-bottom: 1px solid #009; margin-bottom: 0px; margin-top: 0px; }
+/* Logo  */
+#menu-bar #block-block-7 img{padding-top:15px;}
+/* Calendar Login */
+div#calendarLoginContainer{text-align:center;margin:0 auto; width: 1139px; border-top: 1px solid #bcbcbc; border-left: 1px solid #bcbcbc;} /* old with 759px  */
+ul#calendarLoginMenu {text-align:right; margin: 0px;}
+ul#calendarLoginMenu li{display:inline; padding-bottom:1px; border-right: 1px solid #bcbcbc; font-weight:bold;}
+ul#calendarLoginMenu li a{margin-right: 8px;}
+/* ul#calendarLoginMenu li:last-child{border-right: none;} */
+ 
+/* right floating sidenavigation */
+div.subnav { float: right; width: 115px; margin-left: 4px; margin-bottom: 6px; border-bottom: 1px solid #EEEEEE; }
+div.subnav a, div.subnav a:visited { font-size: 11px; background-image: url('/calendar/images/arrow.gif'); background-repeat:no-repeat; background-position: 7px 2px; padding-bottom: 3px; padding-top: 2px; padding-left: 14px; padding-right: 1px; display:block; /*color: #136317; */  text-decoration: none;border-right: 1px solid #EEEEEE; border-left: 1px solid #EEEEEE; }
+div.subnav a:hover { color: #FFFFFF; }
+div.subnav div { color: #000000; font-weight:bold; text-align:left; padding:1px; padding-left: 7px; background-image: url("/calendar/images/submenu_top.gif"); background-repeat:no-repeat;}
+div.subnav strong { font-size: 11px; background-repeat:no-repeat; background-position: 7px 2px; padding-bottom: 2px; padding-top: 4px; padding-left: 6px; padding-right: 1px; display:block; text-decoration: none;border-right: 1px solid #EEEEEE; border-left: 1px solid #EEEEEE; } 
+
+/* additional item, example: sponsors, inside right floating subnavigation*/
+div.subnav p.subitem {color: #630000; font-weight: bold;  font-size: 14px; padding-top:10px; width: 115px;margin:0px; border: 1px solid #EEEEEE; border-bottom:none; text-align:center;}
+.subnav p.subitem a, .subnav p.subitem a:visited {background-image:none; padding: 6px; border:none;text-align:center; }
+div.subnav p.subitem img {margin-top: 15px;}
+
+
+/* left menu items */
+div.sidenav { width: 150px; text-align: right; }/* added text-align to replace inline styles  KN  */
+div.sidenav p{padding-right:5px; padding-left:5px;}
+div.sidenav a, .l-menuTopline { display:block; padding: 5px; text-align: right; font-size: 11px; text-decoration:none}
+div.sidenav h3{margin:0px;}
+div.sidenav .borderBottom{border-bottom:1px solid #ababab;}
+a.l-menuTopline { border-top: 1px solid #ccc}
+note {display:block; padding: 5px; text-align: right; font-size: 10px; text-decoration:none }
+
+
+/* left menu subtitles */
+.menutitle, .menutitle:visited { text-align:right; padding: 5px; padding-left: 0px; margin-left: -3px; font-weight: bold; color: #009; }
+
+/* footer */
+div.footer {color: #999; font-size: xx-small; margin-left: auto; margin-right:auto; width: 760px; border-top: 1px solid #aaa096; text-align: left; padding-top: 5px; }
+div.footer a, .footer div { font-size: xx-small }
+
+/* top account table */
+table.top { width: 760px; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 0px; padding: 0px} 
+
+/* main table */
+table.main { width: 1140px; margin-left: auto; margin-right:auto; border-top: 1px solid #009; margin-top: 0px} /* old width 760px  */
+
+/* left container */
+td.left { width: 150px }
+
+/* Content right container */
+
+td.content { padding: 5px; text-align:left; padding-right: 0px;border-left: 1px solid #aaa096; width: 590px; height: 300px }
+
+/* important text */
+.importanttext, .faqQuestion { color: #203040; font-weight: bold }
+
+/* textboxes */
+.txtbox1 { background-color: #f4f4f7; padding: 4px; border:1px solid #ccc }
+.txtbox2 { background-color: #f4f4f7; padding: 4px; border:1px dashed #ccc }
+.txtbox3 { float:right; padding: 4px; margin-left: 4px; width: 170px; margin-bottom: 4px; background-color: #f4f4f7; border: 1px solid #c0d0e0}
+.box4 {background-color: #630000; width: 180px;color:#EEEEEE; padding: 3px; float:right; margin-left: 6px; margin-bottom: 5px;}
+.box4 div {background-color:#fff; color: #630000; margin:-4px;margin-top: 12px; padding-top: 2px}
+
+/* textboxes with rounded corners */
+div#box1, b.rtop b, b.rbottom b{ background: #EEEEEE;}
+
+div#box1 p { padding:5px; bordder:1px solid red; margin:0px }
+b.rtop, b.rbottom{display:block;background: #FFF}
+b.rtop b, b.rbottom b{display:block;height: 1px}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+
+/* Pop up windows - example: staff page */
+.popup { border:1px solid #009; margin: 5px; width: 510px; padding: 10px; text-align:left }
+/* colored text */
+
+
+/* borders */
+.border1 { border:1px solid #000 }
+
+/* right floating images and image boxes with captions */
+img.right {float:right; margin-left: 6px; margin-bottom: 5px; border:1px solid #000}
+div.right {float:right; margin-left: 6px; margin-bottom: 5px; color: #405060; width: 180px}
+div.right img {border:1px solid #000; margin-bottom: 5px}
+
+/* left floating images and image boxes with captions */
+img.left {float:left; margin-right: 6px; margin-bottom: 5px; border:1px solid #000}
+div.left {float:left; margin-right: 8px; margin-bottom: 5px; color: #405060; width: 180px}
+div.left img {border:1px solid #000}
+
+/* line with link to top of page, example:newsletters */
+.gotop { border-top: 1px solid #ccc; text-align:right }
+
+.redtext { color: #C00}
+.greytext { color: #405060}
+
+/* backgrounds */
+.bg1 { background-color: #EEEEEE}
+.bg2 { background-color: #EBEAE7}
+.bg3 { background-color: #EDF6F7}
+.bg4 { background-color: #F8F3F8 }
+
+/* Table cells */
+table.table1{ margin-left: -4px }
+table.table1 td { padding: 4px; }
+table.table2 td { padding: 4px; border: 1px solid #ccc;}
+table.table2, table.table1 { width:460px}
+
+acronym:hover { cursor: help }
+acronym  { border-bottom: thin dotted; cursor: help}
+
+.join {float:right; margin-right: 4px; margin-left: 20px; margin-bottom: 10px; margin-top: 10px}
+
+/*RSS feeds */
+
+h3.headlines {background-color:#EEEEEE; padding:3px}
+#webFeeds { width: 180px; text-align:right; float:right; margin-top: -34px; }
+table.webFeeds {width: 100%}
+#webFeeds a {font-size: 10px;text-decoration: none;padding-right: 8px; }
+#webFeeds img {	vertical-align: bottom; }
+.feedDate, .feedLink { padding-bottom:8px }
+td.feedDate { color: #405060; width: 80px }
+div.feedFooter{ text-align:right; width: 100%; border-top: 5px solid #EEEEEE; padding-top: 6px }
+
+/* Buttons */
+#redButton { text-color: #FF0000 };
